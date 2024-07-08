@@ -1,0 +1,64 @@
+/*!
+ *   AdminLTE v3.0.0-alpha
+ *   Author: Abdullah Almsaeed
+ *	 Website: AdminLTE.io <http://adminlte.io>
+ *   License: Open source - MIT <http://opensource.org/licenses/MIT>
+ */
+// Farsi Font
+// ---------------------------------------------------
+@import "fonts-fa.css";
+// Bootstrap
+// ---------------------------------------------------
+@import "../../build/scss/Bootstrap/functions";
+@import "../../build/scss/AdminLTE/bootstrap-variables";
+@import "../../build/scss/Bootstrap/bootstrap";
+// VARIABLES AND MIXINS
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/variables";
+@import "../../build/scss/AdminLTE/mixins";
+// Core
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/layout";
+// COMPONENTS
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/main-header";
+@import "../../build/scss/AdminLTE/brand";
+@import "../../build/scss/AdminLTE/main-sidebar";
+@import "../../build/scss/AdminLTE/sidebar-mini";
+@import "../../build/scss/AdminLTE/control-sidebar";
+@import "../../build/scss/AdminLTE/dropdown";
+@import "../../build/scss/AdminLTE/forms";
+@import "../../build/scss/AdminLTE/progress-bars";
+@import "../../build/scss/AdminLTE/small-box";
+@import "../../build/scss/AdminLTE/cards";
+@import "../../build/scss/AdminLTE/info-box";
+@import "../../build/scss/AdminLTE/timeline";
+@import "../../build/scss/AdminLTE/buttons";
+@import "../../build/scss/AdminLTE/callout";
+@import "../../build/scss/AdminLTE/alerts";
+@import "../../build/scss/AdminLTE/navs";
+@import "../../build/scss/AdminLTE/products";
+@import "../../build/scss/AdminLTE/table";
+@import "../../build/scss/AdminLTE/labels";
+@import "../../build/scss/AdminLTE/direct-chat";
+@import "../../build/scss/AdminLTE/users-list";
+@import "../../build/scss/AdminLTE/carousel";
+@import "../../build/scss/AdminLTE/social-widgets";
+// PAGES
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/mailbox";
+@import "../../build/scss/AdminLTE/lockscreen";
+@import "../../build/scss/AdminLTE/login_and_register";
+@import "../../build/scss/AdminLTE/404_500_errors";
+@import "../../build/scss/AdminLTE/invoice";
+@import "../../build/scss/AdminLTE/profile";
+// Plugins
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/fullcalendar";
+@import "../../build/scss/AdminLTE/select2";
+// Miscellaneous
+// ---------------------------------------------------
+@import "../../build/scss/AdminLTE/miscellaneous";
+@import "../../build/scss/AdminLTE/print";
+@import "../../build/scss/AdminLTE/text";
+@import "../../build/scss/AdminLTE/elevation";

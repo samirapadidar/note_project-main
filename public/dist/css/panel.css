@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.collapsed-card .card-tools .btn-tool .fa-minus:before {
+  content: "";
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  overflow-x: initial;
+}
+
+.main-footer {
+  color: #fff;
+  background: #343a40;
+  padding: 5px 15px;
+}
+.main-footer a {
+  color: #de8a1e;
+}
+
+.main-header,
+.main-footer {
+  height: 35px;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 70px) !important;
+  padding-bottom: 35px;
+}
+
+.datepicker-plot-area {
+  font-family: "IRANYekan";
+}
+
+.font-en {
+  font-family: Arial;
+}
+
+.nav-sidebar .nav-treeview .nav-link p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.card .nav-pills .nav-link {
+  border: 1px solid #ccc;
+  margin-left: 5px;
+}
+.card .nav-pills .nav-link.active {
+  border-color: transparent;
+}
+
+.min-width-120 {
+  min-width: 120px;
+}
+
+.min-width-150 {
+  min-width: 150px;
+}
+
+.min-width-165 {
+  min-width: 165px;
+}
+
+.min-width-400 {
+  min-width: 400px;
+}
+
+.ck-editor__editable {
+  min-height: 100px;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.thumb {
+  background: no-repeat center center transparent;
+  background-size: contain;
+  padding-bottom: 100%;
+}
+.thumb label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+}
+.thumb label .icheckbox_minimal-blue {
+  background-color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+.table img {
+  max-width: 125px;
+}
+
+#product_type + .fas {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.space-normal {
+  white-space: normal;
+}
+
+.scroll-text {
+  overflow: auto;
+}
+.scroll-text > div {
+  max-height: 50px;
+}
+
+#line-chart.ajax {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#line-chart.ajax > .fa-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #444;
+  font-size: 5rem;
+  margin: -40px 0 0 -40px;
+}
+
+.ck-editor__editable {
+  max-height: 400px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single {
+  height: 38px;
+}
+
+.select2-container--default .select2-selection--single {
+  border-radius: 0.25rem;
+}
+
+.select2-container {
+  display: block;
+  max-width: 100%;
+}
+
+select.select2 {
+  display: none;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+  min-width: 5em;
+}
+
+.select2-results__option {
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=panel.css.map */
