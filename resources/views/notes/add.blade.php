@@ -2,9 +2,7 @@
 @section('head')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
-    <link rel="stylesheet" href="/plugins/select2/select2.min.css">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 @endsection
 @endsection
 <div class="card card-primary">
@@ -54,20 +52,7 @@
     </form>
 </div>
 @section('bottom-script')
-    <script src="../../plugins/jquery/jquery.min.js"></script>
-    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../plugins/jquery-validation/jquery.validate.min.js"></script>
-    <script src="../../plugins/jquery-validation/additional-methods.min.js"></script>
-    <script src="../../dist/js/adminlte.min.js?v=3.2.0"></script>
-    <script src="../../dist/js/demo.js"></script>
-    <script>
-        ClassicEditor
-            .create( document.querySelector( '#body' ) )
-            .catch( error => {
-                console.error( error );
-            });
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" ></script>
+@section('bottom-script')
+    <script src="{{ mix('js/app.js') }}"></script>
+@endsection
 @endsection
