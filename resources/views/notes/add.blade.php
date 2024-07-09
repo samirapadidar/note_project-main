@@ -52,7 +52,5 @@
     </form>
 </div>
 @section('bottom-script')
-@section('bottom-script')
     <script src="{{ mix('js/app.js') }}"></script>
-@endsection
 @endsection

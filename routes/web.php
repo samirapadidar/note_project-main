@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function () {
         Route::get('details/{id}', 'getNoteDetail')->name('details');
         Route::get('/', 'getAllNotes')->name('index');
         Route::post('create', 'createNote')->name('create');
-        Route::post('update/{id}', 'updateNote')->name('update');
+        Route::put('update/{id}', 'updateNote')->name('update');
     });
 
     Route::controller(CategoryController::class)->prefix('categories')->name('categories.')->group(function () {
